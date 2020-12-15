@@ -238,10 +238,10 @@ section h2{
 	body{
 		font-size:14px;
 	}
-	
+
   a#menu{
 		display:none;
-	}	
+	}
 
 	.panel{
 		display:block !important;
@@ -265,16 +265,16 @@ section h2{
 		font-size: 14px;
 		font-weight: 300;
 	}
-	
+
   #mainnav a{
 		color: #000;
 	}
-	
+
 	#mainnav.changeNav{
 		background: rgba(255,255,255,.9);
 		border-bottom: 1px solid #d1d1d1;
 	}
-	
+
 	#mainnav.changeNav li{
 		padding: 20px 10px;
 	}
@@ -297,7 +297,7 @@ section h2{
 		padding: 0 100px;
 		vertical-align: middle;
 	}
-	
+
 	/* SEC03 SERVICE MESSAGE STORY
 	-----------------*/
 	.col3{
@@ -312,13 +312,18 @@ section h2{
 		vertical-align: top;
 		text-align: left;
 	}
-	
+
 	/* SEC05 PROFILE
 	-----------------*/
 	#sec05{
 		padding-top: 120px;
 	}
-	
+
+	#twitter{
+		padding-top:30px;
+		height: 315px;
+	}
+
   #footer{
 		padding: 30px 10px 70px 0;
 	}
@@ -337,6 +342,12 @@ section h2{
 	  width: 96% !important;
 		left: 2%;
 	}
+
+	#twitter{
+		padding-top: 30px;
+		height: 400px;
+	}
+
 }
 
 @media only screen and (max-width: 799px){
@@ -458,6 +469,11 @@ section h2{
 		margin: 0 auto;
 		display: block;
 	max-width: 288px;
+	}
+
+	#twitter{
+		padding-top: 30px;
+		height: 200px;
 	}
 }
 
